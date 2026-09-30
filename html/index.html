@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apresentação</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Bem-vindo(a) à ONG Guardiões da Fauna!</h1>
+        <p>Atuamos na preservação da natureza, proteção e resgate de animais.</p>
+        <img src="../imagens/fotodocervo-unsplash.jpg" alt="Grupo de animais silvestres em área de vegetação">
+    <nav>
+        <input type="checkbox" id="menu-toggle">
+        <label for="menu-toggle" class="menu-icon" aria-label="Abrir menu">☰</label>
+
+        <ul>
+            <li><a href="#sobre">Sobre a ONG</a></li>
+            
+            <li><a href="#projetos">Nossos Projetos</a></li>
+
+            <li class="dropdown">
+                <a href="#ajudar">Como ajudar</a>
+                <ul class="submenu">
+                    <li><a href="#voluntario">Seja voluntário</a></li>
+                    <li><a href="#doacao">Faça uma doação</a></li>
+                    <li><a href="#denuncia">Denuncie maus-tratos e tráfico</a></li>
+                </ul>
+            </li>
+
+            <li><a href="#contato">Contato</a></li>
+            <li><a href="#cadastro">Cadastro</a></li>
+        </ul>
+    </nav>
+    </header>
+
+    <main>
+        <div id="app"></div>
+        
+
+        
+        
+        
+        
+        
+        <section id="contato">
+            <h2>Contato</h2>
+            <p>Telefone: (11) 99999-8888</p>
+            <p>E-mail: ongguardioesdafauna@email.com</p>
+            <p>Endereço: Rua dos Pequenos Ecossistemas, nº 100 — Bairro Verde — São Paulo/SP</p>
+        </section>
+    </main>
+
+    <input type="checkbox" id="modal-toggle">
+
+    <label for="modal-toggle" class="modal-button">
+        Ver informações
+    </label>
+
+    <div class="modal">
+        <div class="modal-content">
+            <h2>Sobre o apoio à ONG</h2>
+            <p>
+                Seu apoio contribui para as ações de proteção, resgate e preservação realizadas pela ONG. 
+
+            </p>
+
+            <label for="modal-toggle" class="modal-close">
+                Fechar
+            </label>
+    </div>
+    <div class="toast">
+        <strong>Sucesso:</strong> Sua ação foi realizada.
+    </div>
+
+    <footer>
+        <p>ONG Guardiões da Fauna</p>
+        <p>Protegendo a fauna, preservando a natureza e promovendo a conscientização ambiental.</p>
+        <p>São Paulo - SP</p>
+        <p>© 2026 ONG Guardiões da Fauna. Todos os direitos reservados.</p>
+    </footer>]
+    <script type="module" src="../js/script.js"></script>
+</body>
+</html>
