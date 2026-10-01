@@ -43,3 +43,17 @@ const rotaInicial = window.location.hash.substring(1) || "sobre";
 renderizarRota(rotaInicial);
 
 console.log("Script chegou até aqui!");
+
+const menuToggle = document.querySelector("#menu-toggle");
+const menuList = document.querySelector("#menu-list");
+
+if (menuToggle && menuList) {
+    menuToggle.addEventListener("click", function () {
+        menuList.classList.toggle("menu-aberto");
+
+        const menuAberto = menuList.classList.contains("menu-aberto");
+
+        menuToggle.setAttribute("aria-expanded", menuAberto);
+    });
+}
+

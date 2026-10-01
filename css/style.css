@@ -336,9 +336,6 @@ article p:first-of-type {
     transform: translateY(0);
 }
 
-#menu-toggle {
-    display: none;
-}
 
 .menu-icon {
     display: none;
@@ -361,8 +358,8 @@ header nav ul {
     margin: 0; 
 }
 
-#menu-toggle:checked + .menu-icon + ul {
-    display: flex; 
+header nav ul.menu-aberto {
+    display: flex !important;
 }
 
 .dropdown .submenu {
