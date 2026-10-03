@@ -1,4 +1,4 @@
-name: Deploy para GitHub Pages
+﻿name: Deploy para GitHub Pages
 
 on:
   push:
@@ -19,26 +19,26 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Baixar código
-        uses: actions/checkout@v4
+      - name: Baixar cÃ³digo
+        uses: actions/checkout@v5
 
       - name: Configurar Node.js
-        uses: actions/setup-node@v4
+        uses: actions/setup-node@v5
         with:
           node-version: 24
           cache: npm
 
-      - name: Instalar dependências
+      - name: Instalar dependÃªncias
         run: npm ci
 
-      - name: Gerar build de produção
+      - name: Gerar build de produÃ§Ã£o
         run: npm run build
 
       - name: Configurar GitHub Pages
-        uses: actions/configure-pages@v5
+        uses: actions/configure-pages@v6
 
-      - name: Preparar arquivos para publicação
-        uses: actions/upload-pages-artifact@v3
+      - name: Preparar arquivos para publicaÃ§Ã£o
+        uses: actions/upload-pages-artifact@v4
         with:
           path: './dist'
 
@@ -53,4 +53,4 @@ jobs:
     steps:
       - name: Publicar no GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4
+        uses: actions/deploy-pages@v5
