@@ -1,0 +1,30 @@
+{
+  "name": "projeto_ong",
+  "version": "1.0.0",
+  "description": "Projeto de experiência prática desenvolvido para uma ONG fictícia, com o objetivo de aplicar conhecimentos de HTML5, CSS3 e JavaScript na criação de uma aplicação web organizada, funcional e acessível.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "optimize:image": "node otimizar-imagem.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vanessa-ads/Projeto_ONG.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/vanessa-ads/Projeto_ONG/issues"
+  },
+  "homepage": "https://github.com/vanessa-ads/Projeto_ONG#readme",
+  "devDependencies": {
+    "html-minifier-terser": "^7.2.0",
+    "sharp": "^0.35.5",
+    "vite": "^8.3.2"
+  }
+}
