@@ -36,8 +36,8 @@ body {
 }
 
 header {
-    background-color: var(--verde-escuro);
-    color: var(--branco-suave);
+    background-color: var(--verde-claro);
+    color: var(--cinza-escuro);
     padding: 0;
 }
 
@@ -69,7 +69,7 @@ header nav {
 }
 
 header nav a {
-    color: #4F665B;
+    color: var(--cinza-escuro);
     text-decoration: none;
     font-size: 16px;
     font-weight: 500;
@@ -185,7 +185,7 @@ input:focus,select:focus,textarea:focus {
 
 button {
     background-color: var(--cor-principal);
-    color: var(--branco-suave);
+    color: var(--cinza-escuro);
     padding: var(--espaco-1);
     border: none;
     border-radius: 6px;
@@ -200,8 +200,8 @@ button:hover {
 }
 
 footer {
-    background-color: var(--verde-escuro);
-    color: var(--branco-suave);
+    background-color: var(--verde-claro);
+    color: var(--cinza-escuro);
     padding: var(--espaco-3);
     text-align: center;
 }
@@ -233,7 +233,7 @@ article:hover {
 }
 
 article h3 {
-    color: var(--verde-escuro);
+    color: #4F665B;
     margin-top: 0;
 }
 
@@ -382,7 +382,7 @@ header nav ul.menu-aberto {
     padding: 4px 10px;
     margin-bottom: var(--espaco-2);
     background-color: var(--verde-suave);
-    color: var(--verde-escuro);
+    color: #4F665B;
     border-radius: 20px;
     font-size: var(--texto-pequeno);
     font-weight: bold;
@@ -403,8 +403,8 @@ header nav ul.menu-aberto {
     right: var(--espaco-3);
     bottom: var(--espaco-3);
     padding: var(--espaco-2);
-    background-color: var(--verde-escuro);
-    color: var(--branco-suave);
+    background-color: var(--verde-claro);
+    color: var(--cinza-escuro);
     border: 1px solid var(--verde-claro);
     border-radius: 8px;
     box-shadow: 0 4px 10px rgba(51, 51, 51, 0.15);
@@ -419,8 +419,8 @@ header nav ul.menu-aberto {
     display: inline-block;
     padding: var(--espaco-2);
     margin-bottom: var(--espaco-3);
-    background-color: var(--verde-escuro);
-    color: var(--branco-suave);
+    background-color: var(--verde-claro);
+    color: var(--cinza-escuro);
     border-radius: 8px;
     cursor: pointer;
     transition: background-color 0.3s, box-shadow 0.3s;
@@ -468,7 +468,7 @@ header nav ul.menu-aberto {
     margin-top: var(--espaco-2);
     padding: var(--espaco-1) var(--espaco-2);
     background-color: var(--cor-principal);
-    color: var(--branco-suave);
+    color: var(--cinza-escuro);
     border-radius: 6px;
     cursor: pointer;
 }
